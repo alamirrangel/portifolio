@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cassiano Costa - Personal Trainer</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-1" id="cabecalho">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto pt-4 pb-3 mt-2 mb-2">
+                    <img src="./images/logo/logo-personal-cassiano (2).png" alt="Logotipo">
+                </div>
+            </div>
+            <button class="navbar-toggler" data-bs-toggle = "collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold ">
+                        <a href="#consultoria" class="nav-link">
+                            <i class="bi bi-person-workspace me-1"></i>
+                            Consultoria</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#funcionamento" class="nav-link ">
+                            <i class="bi bi-person-vcard me-1"></i>
+                            Como Funciona</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#resultados" class="nav-link ">
+                            <i class="bi bi-person-up me-1"></i>
+                            Resultados</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#perguntas" class="nav-link ">
+                            <i class="bi bi-person-raised-hand  me-1"></i>
+                            Perguntas Frequentes</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#planos" class="nav-link ">
+                            <i class="bi bi-box-seam me-1"></i>
+                            Planos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+
+        <section id="consultoria">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center pt-6 pb-6">
+                    <h2>Vagas ilimitadas</h2>
+                    <h1 class="fw-bold text-uppercase">Consultoria Online Ac Training</h1>
+                    <div id="price" class="row">
+                        <del class="text-danger">R$150,00</del>
+                        <strong class="h1 text-success">R$ 110,00</strong>
+                    </div>
+                    
+                    <button type="button">Comprar</button>
+                </div>
+                
+            </div>
+            
+
+        </section>
+        
+        <section id="funcionamento" class="pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center pt-6 pb-6">
+                    <h1 class="text-uppercase fw-bold">Como funciona</h1>
+                    <h4>
+                        Chega de treinos monótonos, aumente sua autoestima com aplicativo da Ac Training treino na palma da mão!
+                    </h4>
+                    <h5>
+                        Construir o corpo dos sonhos não é tão difícil como você imagina.
+                    </h5>
+                    <h5>
+                        Tudo que você precisa são os <b>exercícios certos</b>, <b>constância </b>e a <b>orientação </b>certa.
+                    </h5>
+                    <p>Você tem um objetivo específico, seja perder peso, construir músculos ou ficar mais forte ou todos os itens acima. Nosso aplicativo com vídeos demonstrativos lhe dará todas as informações para alcançar seu objetivo.
+                    </p>
+                    <p>
+                        Ac Training oferece treinos feitos para se encaixarem a sua rotina,<b>queimar gordura</b> e ganhar massa magra, tudo personalizado com acesso a treinadores profissionais sempre que você quiser.    
+                    </p>
+                    <p>
+                        Todo o seu treino pode ser feito em casa, no trabalho ou na academia, até mesmo quando viajar.
+                    </p>
+                    <p>
+                        Tenha seu treino <u>personalizado </u>na palma da mão e Mude hoje com Ac Training!
+                    </p>
+                    <p>
+                        Compre sua assinatura de um mês agora e comece a ficar em forma!    
+                    </p>
+                    <button type="button" class="bg-sucess">Comprar</button>
+                    
+                </div>
+            </div>
+        </section>
+        <section id="resultados" class="pt-5 pb-5">
+            <h2 class="section-title text-center fw-bold">Resultados Incriveis
+            </h2>
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/resultados/resultado1.jpeg" alt="Resultado 1">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/resultados/resultado2.jpeg" alt="Resultado 2">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/resultados/resultado3.jpeg" alt="Resultado 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="perguntas" class="pt-5 pb-5"> 
+            <div class="row justify-content-center">
+                <div class="col-10 text-center pt-4 pb-6">
+                    <div class="row justify-content-center">
+                        <div class="col-10  pb-2">
+                            <div class="row justify-content-center">
+                                <span class="text-uppercase text-page font-weight-bold " style="font-size: 3.5rem; line-height: 1.2"><i>Perguntas Frequentes</i></span>
+                            </div>
+                        </div>
+                        <div>
+                            <h1>
+                                Em quanto tempo recebo meu treino?
+                            </h1>
+                                <p>
+                                    Após a confirmação do pagamento damos o prazo de até 7 dias para entrega.
+                                </p>                      
+                            <h1>
+                                Como tenho acesso ao aplicativo de treino?
+                            </h1>
+                                <p>
+                                    Após o primeiro contato enviamos via e-mail ou whatsapp um link para baixar o aplicativo.
+                                </p> 
+                            <h1>
+                                O treino é trocado mensalmente?
+                            </h1>
+                                <p>
+                                    Damos essa opção, mas indicamos pelo menos 2 meses com o mesmo treino para se criar as adaptações necessárias(neural, ligamentar, articular e muscular) e obtermos progressão de carga.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </section>
+        <section id="planos" class="pt-5 pb-5">
+            <div class="row justify-content-center" id="section_5">
+                <div class="col-12 col-md-8 text-center pt-4 pb-6">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <span class="text-uppercase text-page font-weight-bold " style="font-size: 3.5rem; line-height: 1.2"><i>Planos</i></span>
+                        </div>
+                        <div class="col-12">
+                            <div class="row justify-content-center">
+                                
+                                    <div class="col-12 col-md-4 ">
+                                        <div class="p-md-4 pb-4 p-3">
+                                            <div class="pl-2 pb-2 " style="border-radius: 25px;  background-color: #1d1d1b;">
+                                                <div class='row justify-content-center'>
+                                                    <div class='col-12'>
+                                                        <div class='row justify-content-center pt-5 pb-4'>
+                                                            <div class='col-10 sec-plan'>
+                                                                <span class='d-block text-white font-weight-bold' style='line-height: 1; font-size: 2rem'>Plano Mensal</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class='row justify-content-center pt-4 pb-4'>
+                                                            <div class='col-auto pt-4 pb-4'>
+                                                                <span class="d-block text-white pb-1 " style="font-size: 1.5rem; line-height: 1">
+                                                                    1 mês  por
+                                                                </span>
+                                                                <span class="d-block text-success font-weight-bold " style="font-size: 2.5rem; line-height: 1">
+                                                                    <i>R$ 150,00</i>
+                                                                </span>
+                                                                <span class="d-block text-white pb-1 text-sm" style="font-size: 1.5rem; line-height: 1">
+                                                                    
+                                                                    
+                                                                        <i>&nbsp;</i>
+                                                                    
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class='row justify-content-center pt-3 pb-5'>
+                                                            <div class="col-10 ">
+                                                                <a href="#pagina de venda" class="btn btn-secondary btn-comprar text-uppercase ">Comprar</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-12 col-md-4 ">
+                                        <div class="p-md-4 pb-4 p-3">
+                                            <div class="pl-2 pb-2 " style="border-radius: 25px;  background-color: #1d1d1b;">
+                                                <div class='row justify-content-center'>
+                                                    <div class='col-12'>
+                                                        <div class='row justify-content-center pt-5 pb-4'>
+                                                            <div class='col-10 sec-plan'>
+                                                                <span class='d-block text-white font-weight-bold' style='line-height: 1; font-size: 2rem'>Plano Bimestral</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class='row justify-content-center pt-4 pb-4'>
+                                                            <div class='col-auto pt-4 pb-4'>
+                                                                <span class="d-block text-white pb-1 " style="font-size: 1.5rem; line-height: 1">
+                                                                    2 meses  por
+                                                                </span>
+                                                                <span class="d-block text-success font-weight-bold " style="font-size: 2.5rem; line-height: 1">
+                                                                    <i>R$ 257,00</i>
+                                                                </span>
+                                                                <span class="d-block text-white pb-1 text-sm" style="font-size: 1.5rem; line-height: 1">
+                                                                    
+                                                                    
+                                                                        <i>&nbsp;</i>
+                                                                    
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class='row justify-content-center pt-3 pb-5'>
+                                                            <div class="col-10 ">
+                                                                <a href="#pagina de venda" class="btn btn-secondary btn-comprar text-uppercase ">Comprar</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-12 col-md-4 ">
+                                        <div class="p-md-4 pb-4 p-3">
+                                            <div class="pl-2 pb-2 " style="border-radius: 25px;  background-color: #1d1d1b;">
+                                                <div class='row justify-content-center'>
+                                                    <div class='col-12'>
+                                                        <div class='row justify-content-center pt-5 pb-4'>
+                                                            <div class='col-10 sec-plan'>
+                                                                <span class='d-block text-white font-weight-bold' style='line-height: 1; font-size: 2rem'>Plano Trimestral</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class='row justify-content-center pt-4 pb-4'>
+                                                            <div class='col-auto pt-4 pb-4'>
+                                                                <span class="d-block text-white pb-1 " style="font-size: 1.5rem; line-height: 1">
+                                                                    3 meses  por
+                                                                </span>
+                                                                <span class="d-block text-success font-weight-bold " style="font-size: 2.5rem; line-height: 1">
+                                                                    <i>R$ 357,00</i>
+                                                                </span>
+                                                                <span class="d-block text-white pb-1 text-sm" style="font-size: 1.5rem; line-height: 1">
+                                                                    
+                                                                    
+                                                                        <i>&nbsp;</i>
+                                                                    
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class='row justify-content-center pt-3 pb-5'>
+                                                            <div class="col-10 ">
+                                                                <a href="#pagina de venda" class="btn btn-secondary btn-comprar text-uppercase ">Comprar</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center pb-6">
+                <div class="col-10 col-md-8  p-0 pb-2 pl-2 "  style='border-radius: 25px; background-color: #ff0000;'>
+                    <div class='card card-body  m-0 ' style='border-radius: 25px;'>
+                        <div class='row d-flex'>
+                            <div class='col-md-2 col-12 pb-4 pb-md-0'>
+                                <img src="https://mfitusersecure.s3.amazonaws.com/65320/pasta/278719.jpeg" class="rounded-circle img-center img-fluid " style="width: 150px; ">
+                            </div>
+                            <div class='col-12 col-md-10 align-self-center '>
+                                <div class='row justify-content-center justify-content-md-start'>
+                                    <div class='col-auto pb-4 pb-md-0'>
+                                        <span class='d-block font-weight-bold text-page' style='font-size: 2.2rem; line-height: 1'>AC Training</span>
+                                    </div>
+                                    
+                                        <div class='col-12'>
+                                            <div class='row justify-content-center justify-content-md-start'>
+                                                <div class='col-auto text-center'>
+                                                    <span class='d-block text-lg font-weight-bold' style='line-height: 1;'>CREF: 031183-G/RJ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                    <div class='col-12 pt-2'>
+                                        <div class='row justify-content-center justify-content-md-start'>
+                                            <div class='col-auto'>
+                                                <span class='d-block' style='line-height: 1; font-size: 1.2rem'>
+                                                    Juntos temos mais de 20 anos atuando no mercado fitness, entregando saúde e qualidade de vida através da atividade física.
+        
+        Já atendemos mais de 3.000 alunos.
+        
+        Seu Objetivo é o nosso objetivo!
+        
+        Cref - 031183
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+    <footer>
+        <div class="container container-flex">
+            <p>2023 © Cassiano Costa - Todos os direitos reservados</p>
+        </div>
+    </footer>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
